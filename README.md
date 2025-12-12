@@ -4,14 +4,18 @@ This repo has all the code and files from our final project on predicting Spotif
 
 Notebooks
 
-1. Churn_EDA.ipynb
+1. beat_the_churn_oldandnew_EDA.ipynb
 This notebook has all the exploratory data analysis. It’s where we look at trends in the dataset, check distributions, clean the data, and basically figure out what we’re working with.
+- Includes: Basic EDA, Automated EDA using ProfileReport, and Advanced EDA techniques
 
-2. Churn_LR.ipynb
+3. Churn_LR.ipynb
 This notebook has the full linear regression / model-training code. When you run it, it will download and save the trained model file that the dashboard uses.
 
-3. ChurnDashboard.ipynb
+4. ChurnDashboard.ipynb
 This notebook has the code for the Streamlit dashboard. It uses the model generated from Churn_LR.ipynb.
+
+5. Churn_EDA.ipynb (Deprecated)
+This notebook has the original exploratory analysis done on the first dataset, beat_the_churn_oldandnew_EDA.ipynb includes full range EDA on both the old and new datasets. 
 
 Datasets
 
